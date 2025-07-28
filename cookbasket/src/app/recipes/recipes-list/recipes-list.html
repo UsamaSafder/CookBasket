@@ -1,1 +1,12 @@
+<div class="row">
+    <button>New Recipe</button>
+</div>
+<div class="row">
+    <a href="#" ><div class="pull-left" *ngFor="let r of recipes;track r">
+        <h4>Recipe Name: {{r.name}}</h4>
+        <p>Description : {{r.description}}</p>
+    </div></a>
 <app-recipes-item></app-recipes-item>
+</div>
+
+
